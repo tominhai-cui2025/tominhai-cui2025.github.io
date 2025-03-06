@@ -28,7 +28,7 @@
   {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
 {{ end }}
 
-<!-- {{/* scripts */}}
+{{/* scripts */}}
 <script
   crossorigin="anonymous"
   integrity="{{ $scripts.Data.Integrity }}"
@@ -40,21 +40,7 @@
   async
   crossorigin="anonymous"
   integrity="{{ $scriptsLazy.Data.Integrity }}"
-  src="{{ $scriptsLazy.RelPermalink }}"></script> -->
-
-{{/* scripts */}}
-  <script
-    crossorigin="anonymous"
-    integrity=""
-    src="{{ $scripts.RelPermalink }}"></script>
-  
-{{/* scripts lazy */}}
-  <script
-    defer
-    async
-    crossorigin="anonymous"
-    integrity=""
-    src="{{ $scriptsLazy.RelPermalink }}"></script>
+  src="{{ $scriptsLazy.RelPermalink }}"></script>
 
 <!-- progressive web app -->
 {{ partialCached "pwa.html" . }}
