@@ -66,9 +66,24 @@
 
 
 <!-- link main style -->
-<link
+<!-- <link
   href="{{ $styles.RelPermalink }}"
   integrity="{{ $styles.Data.Integrity }}"
+  rel="stylesheet" />
+
+
+<link
+  defer
+  async
+  rel="stylesheet"
+  href="{{ $stylesLazy.RelPermalink }}"
+  integrity="{{ $stylesLazy.Data.Integrity }}"
+  media="print"
+  onload="this.media='all'; this.onload=null;" /> -->
+
+<link
+  href="{{ $styles.RelPermalink }}"
+  integrity=""
   rel="stylesheet" />
 
 <!-- link lazy style -->
@@ -77,6 +92,8 @@
   async
   rel="stylesheet"
   href="{{ $stylesLazy.RelPermalink }}"
-  integrity="{{ $stylesLazy.Data.Integrity }}"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
+
+
