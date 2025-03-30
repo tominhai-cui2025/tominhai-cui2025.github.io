@@ -1,11 +1,46 @@
 {{ define "main" }}
   <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+    <div class="container mx-auto">
+      <!-- Flex container with default vertical centering -->
+      <div class="flex flex-col md:flex-row md:space-x-8 md:items-center">
+        <!-- Main content column (centered vertically by default) -->
+        <div class="flex-4 lg:col-8 content" style="align-self: center;text-align: justify;">
+          <h2 class="h2 text-center mb-6">{{ .Title }}</h2>
+          {{ .Content }}
+        </div>
+        <!-- Sidebar column (override vertical centering to align at the top) -->
+        <div class="flex-1 important-dates self-start" style="text-align: justify; max-width: 400px;">
+          <h3 class="h3 mb-4">Important Dates</h3>
+          {{ with .Params }}
+          <ul>
+            {{ with .submission_deadline }}
+              <li class="mb-2"><strong>Submission Deadline:</strong> {{ . | dateFormat "Jan 2, 2006" }} (Anywhere on Earth)</li>
+            {{ end }}
+            {{ with .notification_date }}
+              <li class="mb-2"><strong>Notification Date:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+            {{ end }}
+            {{ with .workshop_date }}
+              <li class="mb-2"><strong>Workshop Date:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          <h3 class="h3 mt-10 mb-4">Submission Details</h3>
+          {{ with .Params }}
+          <ul>
+            {{ with .platform_link }}
+            <li class="mb-2"><strong>Platform Link:</strong> <a href="{{ .url }}" class="underline">{{ .text }}</a></li>
+              <p></p>
+            {{ end }}
+            {{ with .submission_format }}
+            <li class="mb-2"><strong>Submission Format:</strong> 2-6 pages ACM double-column, 
+              [<a href="{{ .word.url }}">{{ .word.text }}</a>]
+              [<a href="{{ .latex.url }}">{{ .latex.text }}</a>]
+              [<a href="{{ .overleaf.url }}">{{ .overleaf.text }}</a>], excluding references. Note: if you are using LaTex (or Overleaf), please use <code>\documentclass[sigconf]{acmart}</code></li>
+            {{ end }}
+            <li class="mb-2"><strong>Submission types:</strong> Position papers, literature reviews, in-progress empirical studies, or “encore” of published work.</li>
+            <li class="mb-2"><strong>Review process:</strong> Single-blind (i.e. author names and affiliations should be listed). Papers will be evaluated based on quality and relevance to ToM in human-AI interaction.</li>
+          </ul>
+          {{ end }}
         </div>
       </div>
     </div>

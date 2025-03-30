@@ -1,7 +1,7 @@
 <!doctype html>
 <html
   itemscope
-  class=""
+  class="system"
   lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head>
@@ -80,8 +80,10 @@
 
 
 
+  
 
-<title>Hugoplate</title>
+
+<title>Home</title>
 
 
 
@@ -106,7 +108,7 @@
 
 <meta
   name="description"
-  content="Hugo &amp; Tailwindcss Starter" />
+  content="This is meta description" />
 
 
 
@@ -117,6 +119,7 @@
 
 
 
+  
   
 
 
@@ -181,14 +184,14 @@
 
 
 
-<meta property="og:title" content="Hugoplate" />
-<meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
+<meta property="og:title" content="Home" />
+<meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/" />
 
 
-<meta name="twitter:title" content="Hugoplate" />
-<meta name="twitter:description" content="Hugo &amp; Tailwindcss Starter" />
+<meta name="twitter:title" content="Home" />
+<meta name="twitter:description" content="This is meta description" />
 
 
   <meta name="twitter:site" content="@zeon_studio" />
@@ -268,7 +271,7 @@
 <script>
   (function () {
     const googleFont = document.createElement("link");
-    googleFont.href = "https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Signika:wght@500;700&display=swap";
+    googleFont.href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=IBM Plex Sans:wght@500;700&display=swap";
     googleFont.type = "text/css";
     googleFont.rel = "stylesheet";
     document.head.appendChild(googleFont);
@@ -370,9 +373,7 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/">
-        
-      </a>
+      
     </div>
     
     <input id="nav-toggle" type="checkbox" class="hidden" />
@@ -398,6 +399,62 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       
       
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              
+              href="/"
+              >Home</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/about"
+              >Call For Papers</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/authors"
+              >Organizers</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/schedule"
+              >Schedule</a
+            >
+          </li>
+        
+      
       
     </ul>
 
@@ -410,73 +467,6 @@
 
       
 
-
-  <div class="theme-switcher mr-5 hidden">
-    <input id="theme-switcher" data-theme-switcher type="checkbox" />
-    <label for="theme-switcher">
-      <span class="sr-only">theme switcher</span>
-      <span>
-        
-        <svg
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
-          viewBox="0 0 56 56"
-          fill="#fff"
-          height="16"
-          width="16">
-          <path
-            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
-        </svg>
-        
-        <svg
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
-          viewBox="0 0 24 24"
-          fill="none"
-          height="16"
-          width="16">
-          <path
-            fill="#000"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
-        </svg>
-      </span>
-    </label>
-  </div>
-
-  
-  <script>
-    var darkMode = false;
-
-    
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
-    
-
-    if (localStorage.getItem("theme") === "dark"){darkMode = true}
-    else if (localStorage.getItem("theme") === "light"){darkMode = false}
-
-    if (darkMode){document.documentElement.classList.add("dark")}
-    else {document.documentElement.classList.remove("dark")}
-
-    
-    document.addEventListener("DOMContentLoaded", () => {
-      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
-      var themeSwitcherContainer = document.querySelector('.theme-switcher');
-
-      [].forEach.call(themeSwitch, function (ts) {
-        ts.checked = darkMode;
-        ts.addEventListener("click", () => {
-          document.documentElement.classList.toggle("dark");
-          localStorage.setItem(
-            "theme",
-            document.documentElement.classList.contains("dark") ? "dark" : "light"
-          );
-        });
-      });
-
-      
-      themeSwitcherContainer.classList.remove('hidden');
-    });
-  </script>
 
 
 
@@ -499,161 +489,52 @@
 
     <main>
       
-  
-  
-    <section class="section pt-14">
-      <div class="container">
-        <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
-              Theory of Mind in Human-AI Interaction @ CUI 2025
-            </h1>
-            <p class="mb-8">
-              Website coming soon&hellip;
-            </p>
-            
-              
-            
-          </div>
-          <div class="col-12">
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
+<div class="banner-img mb-0">
+  <img src="/images/tomhai.svg" alt="Banner Image" class="w-full max-h-[400px] mx-auto">
+</div> 
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-8">
         
+        <div class="meta-title mb-8">
+          
+            <div class="text-4xl text-black font-bold">Location: Waterloo, Ontario, Canada</div>
+          
+          
+            <div class="text-4xl text-black font-bold">Date: Jul 8, 2025</div>
+          
+        </div>
+        <div class="content" style="text-align: justify;">
+          <hr>
+<h3 id="about-the-workshop">About the Workshop</h3>
+<!-- Conversational User Interfaces (CUIs) powered by advanced AI are transforming interactions across various domains, from customer support and education to companionship and collaboration. Central to these advancements is the concept of Theory of Mind (ToM)—the human ability to attribute mental states like intentions, emotions, and beliefs to oneself and others.
 
-        
-        
-        
-        
-        
-        
-        
+The ToMinHAI Workshop focuses on this essential cognitive-social capability, aiming to advance the emerging paradigm of Mutual Theory of Mind (MToM)—where both humans and CUIs continuously interpret each other's mental states.
 
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/banner_hu_bdc8c628a610493f.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/banner_hu_41f0e50ee292c887.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/banner_hu_67c61e9b680b2e41.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/banner_hu_bd8330c75c01695c.webp"
-             />
-          <img
-            
-              loading="eager" decoding="async"
-              src="/images/banner_hu_64253f31100130ee.png"
-            class=" mx-auto lg:!max-w-[800px] img"
-            alt="Banner image"
-            width="1206"
-            height="553" />
-        </picture>
-      
-      
-    
-    
-  
-
-
-  
-
-
-          </div>
+Following the success of our first workshop at CHI 2024, we invite interdisciplinary scholars and industry professionals from AI, ML, HCI, cognitive science, robotics, and psychology to join the discussion on building and evaluating ToM capabilities in CUIs. -->
+<p>Recent advancements in AI are enabling conversational user interfaces (CUIs) to communicate with humans at various social capacities, transforming the way humans interact with AI agents through natural conversations. To enhance these conversational interactions, many researchers are turning to a key cognitive-social capability that enables interpersonal communication–Theory of Mind (ToM). ToM refers to humans’ capability of attributing mental states such as intentions, goals, emotions, and beliefs to ourselves and others.</p>
+<p>While much prior work covers people’s ToM of CUIs and vice versa, we know little of how these can be intertwined to support the design of human-centered CUIs. Putting together technical and social perspectives of research on ToM in human-CUI interaction, from the CUI’s side and from the human’s side, there is an emerging paradigm that we call “Mutual Theory of Mind (MToM)” interaction. In MToM, we envision both the human and the CUI to possess the capability of ToM and continuously make inferences and attribute mental states to each other during an interaction.</p>
+<hr>
+<h3 id="who-should-attend">Who Should Attend?</h3>
+<p>As part of the ToMinHAI workshop series, this ToMinHAI workshop at CUI aims to examine the current practices, challenges, and opportunities in designing, building, and evaluating ToM in human-CUI interactions. To support interdisciplinary discussions, we warmly invite academic and industry researchers and practitioners in disciplines including but not limited to cognitive science, AI, HCI, design, machine learning, robotics, psychology, communication studies, and more to submit work that will inform our understanding of ToM in human-CUI interaction.</p>
+<!-- We warmly welcome participants from academia and industry who are interested in conversational systems, generative AI, social robotics, cognitive modeling, and related areas. Whether your research is theoretical, empirical, or practical, your contribution can advance our collective understanding and application of ToM in AI. -->
         </div>
       </div>
-    </section>
-  
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-  
+    </div>
+  </div>
+</section>
 
     </main>
 
     
     <footer class="bg-light dark:bg-darkmode-light">
   <div class="container">
+    <div class="text-center py-10">
+      If you have any questions or comments, please feel free to contact us at EMAIL
+    </div>
     <div class="row items-center py-10">
+      
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
         
         <a

@@ -1,20 +1,30 @@
 ############# English navigation ##############
 
 # main menu
-#[[main]]
-#name = "Home"
-#url = "/"
-#weight = 1
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
 
 #[[main]]
 #name = "About"
 #url = "/about"
 #weight = 2
 
-#[[main]]
-#name = "Elements"
-#url = "/elements"
-#weight = 3
+[[main]]
+name = "Call For Papers"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Organizers"
+url = "/authors"
+weight = 3
+
+[[main]]
+name = "Schedule"
+url = "/schedule"
+weight = 4
 
 #[[main]]
 #weight = 4
@@ -24,27 +34,6 @@
 #parent = "Pages"
 #name = "Blog"
 #url = "/blog"
-
-#[[main]]
-#parent = "Pages"
-#name = "Contact"
-#url = "/contact"
-
-#[[main]]
-#parent = "Pages"
-#name = "Authors"
-#url = "/authors"
-
-#[[main]]
-#parent = "Pages"
-#name = "Categories"
-#url = "/categories"
-
-#[[main]]
-#parent = "Pages"
-#name = "404 Page"
-#url = "/404"
-
 
 # footer menu
 #[[footer]]
