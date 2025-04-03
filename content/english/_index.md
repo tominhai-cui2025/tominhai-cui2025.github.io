@@ -13,7 +13,7 @@ draft: false
 
 ---
 
-### About the Workshop
+##### About the Workshop
 
 <!-- Conversational User Interfaces (CUIs) powered by advanced AI are transforming interactions across various domains, from customer support and education to companionship and collaboration. Central to these advancements is the concept of Theory of Mind (ToM)—the human ability to attribute mental states like intentions, emotions, and beliefs to oneself and others.
 
@@ -29,7 +29,7 @@ While much prior work covers people’s ToM of CUIs and vice versa, we know litt
 
 ---
 
-### Who Should Attend?
+##### Who Should Attend?
 
 As part of the ToMinHAI workshop series, this ToMinHAI workshop at CUI aims to examine the current practices, challenges, and opportunities in designing, building, and evaluating ToM in human-CUI interactions. To support interdisciplinary discussions, we warmly invite academic and industry researchers and practitioners in disciplines including but not limited to cognitive science, AI, HCI, design, machine learning, robotics, psychology, communication studies, and more to submit work that will inform our understanding of ToM in human-CUI interaction.
 

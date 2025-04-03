@@ -22,7 +22,7 @@ submission_format:
 draft: false
 ---
 
-In this workshop , we aim to bring together researchers investigating ToM from different research perspectives to define a unifying agenda for Mutual Theory of Mind (MToM) in human-CUI interactions, where both humans and CUIs exhibit ToM-like capabilities throughout their interactions. 
+In this workshop, we aim to bring together researchers investigating ToM from different research perspectives to define a unifying agenda for Mutual Theory of Mind (MToM) in human-CUI interactions, where both humans and CUIs exhibit ToM-like capabilities throughout their interactions. 
 
 Relevant work may involve CUIs taking on diverse social roles (e.g., teammates, tutors) or propose fresh directions for ToM research in human-CUI interaction. We particularly encourage work that examines how ToM-like abilities can be operationalized, designed, and evaluated, raising questions around which metrics and benchmarks truly capture whether a CUI ‘has’ ToM. 
 

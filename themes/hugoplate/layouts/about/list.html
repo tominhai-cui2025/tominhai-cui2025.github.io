@@ -9,7 +9,8 @@
           {{ .Content }}
         </div>
         <!-- Sidebar column (override vertical centering to align at the top) -->
-        <div class="flex-1 important-dates self-start" style="text-align: justify; max-width: 400px;">
+        <div class="block md:hidden border-t border-gray-300 mt-10 my-4"></div>
+        <div class="flex-1 important-dates self-start md:bg-gray-200 md:p-4 md:border mt-10" style="text-align: justify; max-width: 400px;">
           <h3 class="h3 mb-4">Important Dates</h3>
           {{ with .Params }}
           <ul>
