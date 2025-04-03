@@ -1,96 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Theory of Mind in Human-AI Interaction @ CUI2025</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Theory of Mind in Human-AI Interaction @ CUI2025</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Qiaosi Wang (Chelsea)</title>
-      <link>http://localhost:1313/authors/chelsea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/chelsea/</guid>
-      <description>&lt;p&gt;Qiaosi Wang (Chelsea) is a Carnegie Bosch Postdoctoral Fellow at Carnegie Mellon University. She conducts interdisciplinary research on human-AI interaction, cognitive science, and responsible AI. Chelsea recently obtained her Ph.D. in Human-Centered Computing from Georgia Institute of Technology. Chelsea&amp;rsquo;s Ph.D. dissertation proposed, developed, and empirically examined &lt;a href=&#34;https://www.arxiv.org/abs/2210.03842&#34;&#xA;&#xA;&#xA;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &#xA;&#xA;&#xA;&gt;the theoretical framework of Mutual Theory of Mind&lt;/a&gt; for human-AI communication, which explores how humans&amp;rsquo; and AI&amp;rsquo;s interpretations of each other are shaped through continuous communication feedback.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Joel Wester</title>
-      <link>http://localhost:1313/authors/joel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/joel/</guid>
-      <description>&lt;p&gt;Joel Wester is a PhD Fellow in the Human-Centred Computing group at Aalborg University.&#xA;He has a background in cognitive science, psychology, and philosophy.&#xA;Joel’s work primarily focuses on AI-powered conversational user interfaces, such as chatbots or robots, and their impact on the wellbeing of everyday citizens.&#xA;His research particularly centres around people’s perceptions of AI systems’ behavior and how these perceptions influence their user experiences.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Marvin Pafla</title>
-      <link>http://localhost:1313/authors/marvin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/marvin/</guid>
-      <description>&lt;p&gt;Marvin Pafla is a PhD candidate in the David R. Cheriton School of Computer Science at the University of Waterloo. Drawing on his background in both Psychology and Computer Science, he investigates human–machine interaction, with a particular focus on neural network explainability and its implications for user trust and comprehension. His research explores the notion of &amp;ldquo;understanding understanding,&amp;rdquo; examining how humans and AI can make sense of each other through a shared Theory of Mind. To advance this work, he studies the ontological foundations that support mutual understanding. Marvin is supervised by Professor Mark Hancock and Professor Kate Larson.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-1/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-3/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>http://localhost:1313/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post-4/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/_index_old/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_index_old/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Elements</title>
-      <link>http://localhost:1313/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/elements/</guid>
-      <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#button&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#accordions&#34;&gt;Accordions&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>http://localhost:1313/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/privacy-policy/</guid>
-      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ready to build your next project with Hugo?</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    <item>
-      <title>What Users Are Saying About Hugoplate</title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Theory of Mind in Human-AI Interaction @ CUI2025</title><link>https://tominhai-cui2025.github.io/</link><description>Recent content in Home on Theory of Mind in Human-AI Interaction @ CUI2025</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://tominhai-cui2025.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Qiaosi Wang (Chelsea)</title><link>https://tominhai-cui2025.github.io/authors/chelsea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/chelsea/</guid><description>&lt;p>Qiaosi Wang (Chelsea) is a Carnegie Bosch Postdoctoral Fellow at Carnegie Mellon University. She conducts interdisciplinary research on human-AI interaction, cognitive science, and responsible AI. Chelsea recently obtained her Ph.D. in Human-Centered Computing from Georgia Institute of Technology. Chelsea&amp;rsquo;s Ph.D. dissertation proposed, developed, and empirically examined &lt;a href="https://www.arxiv.org/abs/2210.03842"
+
+
+
+
+ target="_blank"
+ 
+
+
+>the theoretical framework of Mutual Theory of Mind&lt;/a> for human-AI communication, which explores how humans&amp;rsquo; and AI&amp;rsquo;s interpretations of each other are shaped through continuous communication feedback.&lt;/p></description></item><item><title>Joel Wester</title><link>https://tominhai-cui2025.github.io/authors/joel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/joel/</guid><description>&lt;p>Joel Wester is a PhD Fellow in the Human-Centred Computing group at Aalborg University.
+He has a background in cognitive science, psychology, and philosophy.
+Joel’s work primarily focuses on AI-powered conversational user interfaces, such as chatbots or robots, and their impact on the wellbeing of everyday citizens.
+His research particularly centres around people’s perceptions of AI systems’ behavior and how these perceptions influence their user experiences.&lt;/p></description></item><item><title>Marvin Pafla</title><link>https://tominhai-cui2025.github.io/authors/marvin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/marvin/</guid><description>&lt;p>Marvin Pafla is a PhD candidate in the David R. Cheriton School of Computer Science at the University of Waterloo. Drawing on his background in both Psychology and Computer Science, he investigates human–machine interaction, with a particular focus on neural network explainability and its implications for user trust and comprehension. His research explores the notion of &amp;ldquo;understanding understanding,&amp;rdquo; examining how humans and AI can make sense of each other through a shared Theory of Mind. To advance this work, he studies the ontological foundations that support mutual understanding. Marvin is supervised by Professor Mark Hancock and Professor Kate Larson.&lt;/p></description></item><item><title>How to build an Application with modern Technology</title><link>https://tominhai-cui2025.github.io/blog/post-1/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/blog/post-1/</guid><description>&lt;p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p></description></item><item><title>How to build an Application with modern Technology</title><link>https://tominhai-cui2025.github.io/blog/post-2/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/blog/post-2/</guid><description>&lt;p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p></description></item><item><title>How to build an Application with modern Technology</title><link>https://tominhai-cui2025.github.io/blog/post-3/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/blog/post-3/</guid><description>&lt;p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p></description></item><item><title>How to build an Application with modern Technology</title><link>https://tominhai-cui2025.github.io/blog/post-4/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/blog/post-4/</guid><description>&lt;p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p></description></item><item><title/><link>https://tominhai-cui2025.github.io/_index_old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/_index_old/</guid><description/></item><item><title>Elements</title><link>https://tominhai-cui2025.github.io/elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/elements/</guid><description>&lt;details class="table-of-content ">
+ &lt;summary>
+ 
+ Table of Contents
+ 
+ &lt;/summary>
+ &lt;nav id="TableOfContents">
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-2">Heading 2&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-3">Heading 3&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-4">Heading 4&lt;/a>
+ &lt;ol>
+ &lt;li>&lt;a href="#heading-5">Heading 5&lt;/a>&lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;li>&lt;a href="#emphasis">Emphasis&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#button">Button&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#link">Link&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#paragraph">Paragraph&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#ordered-list">Ordered List&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#unordered-list">Unordered List&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#notice">Notice&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#tab">Tab&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#accordions">Accordions&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#code-and-syntax-highlighting">Code and Syntax Highlighting&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#blockquote">Blockquote&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#tables">Tables&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#image">Image&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#gallery">Gallery&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#slider">Slider&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#youtube-video">Youtube video&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#custom-video">Custom video&lt;/a>&lt;/li>
+ &lt;/ol>
+ &lt;/li>
+ &lt;/ol>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code>#&lt;/code> for heading 1 and use &lt;code>######&lt;/code> for heading 6.&lt;/p></description></item><item><title>Privacy</title><link>https://tominhai-cui2025.github.io/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/privacy-policy/</guid><description>&lt;h4 id="responsibility-of-contributors">Responsibility of Contributors&lt;/h4>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p></description></item><item><title>Ready to build your next project with Hugo?</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>What Users Are Saying About Hugoplate</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item></channel></rss>
