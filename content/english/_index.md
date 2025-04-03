@@ -1,36 +1,53 @@
 ---
-title: "Home"
-# meta title
-meta_title: ""
-# meta description
-description: "This is meta description"
-location: "Waterloo, Ontario, Canada"
-datum: 2025-07-08T00:00:00Z
-# save as draft
-draft: false
+# Banner
+banner:
+  title: "Theory of Mind in Human-AI Interaction @ CUI 2025"
+  content: "Website coming soon..."
+  image: "/images/banner.png"
+  button:
+    enable: false
+    label: "Get Started For Free"
+    link: "https://github.com/zeon-studio/hugoplate"
+
+# Features
+# features:
+#   - title: "What's Included in Hugoplate"
+#     image: "/images/service-1.png"
+#     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+#     bulletpoints:
+#       - "10+ Pre-build pages"
+#       - "95+ Google Pagespeed Score"
+#       - "Build with Hugo and TailwindCSS for easy and customizable styling"
+#       - "Fully responsive on all devices"
+#       - "SEO-optimized for better search engine rankings"
+#       - "**Open-source and free** for personal and commercial use"
+#     button:
+#       enable: false
+#       label: "Get Started Now"
+#       link: "#"
+
+#   - title: "Discover the Key Features Of Hugo"
+#     image: "/images/service-2.png"
+#     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+#     bulletpoints:
+#       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
+#       - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
+#       - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+#     button:
+#       enable: true
+#       label: "Get Started Now"
+#       link: "https://github.com/zeon-studio/hugoplate"
+
+#   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+#     image: "/images/service-3.png"
+#     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+#     bulletpoints:
+#       - "Instantly load static sites for better user experience and SEO."
+#       - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
+#       - "Use any front-end library or framework, or build custom components, for any project size."
+#       - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+#     button:
+#       enable: false
+#       label: ""
+#       link: ""
 ---
-
-
----
-
-##### About the Workshop
-
-<!-- Conversational User Interfaces (CUIs) powered by advanced AI are transforming interactions across various domains, from customer support and education to companionship and collaboration. Central to these advancements is the concept of Theory of Mind (ToM)—the human ability to attribute mental states like intentions, emotions, and beliefs to oneself and others.
-
-The ToMinHAI Workshop focuses on this essential cognitive-social capability, aiming to advance the emerging paradigm of Mutual Theory of Mind (MToM)—where both humans and CUIs continuously interpret each other's mental states.
-
-Following the success of our first workshop at CHI 2024, we invite interdisciplinary scholars and industry professionals from AI, ML, HCI, cognitive science, robotics, and psychology to join the discussion on building and evaluating ToM capabilities in CUIs. -->
-
-Recent advancements in AI are enabling conversational user interfaces (CUIs) to communicate with humans at various social capacities, transforming the way humans interact with AI agents through natural conversations. To enhance these conversational interactions, many researchers are turning to a key cognitive-social capability that enables interpersonal communication–Theory of Mind (ToM). ToM refers to humans’ capability of attributing mental states such as intentions, goals, emotions, and beliefs to ourselves and others. 
-
-While much prior work covers people’s ToM of CUIs and vice versa, we know little of how these can be intertwined to support the design of human-centered CUIs. Putting together technical and social perspectives of research on ToM in human-CUI interaction, from the CUI’s side and from the human’s side, there is an emerging paradigm that we call “Mutual Theory of Mind (MToM)” interaction. In MToM, we envision both the human and the CUI to possess the capability of ToM and continuously make inferences and attribute mental states to each other during an interaction. 
-
-
-
----
-
-##### Who Should Attend?
-
-As part of the ToMinHAI workshop series, this ToMinHAI workshop at CUI aims to examine the current practices, challenges, and opportunities in designing, building, and evaluating ToM in human-CUI interactions. To support interdisciplinary discussions, we warmly invite academic and industry researchers and practitioners in disciplines including but not limited to cognitive science, AI, HCI, design, machine learning, robotics, psychology, communication studies, and more to submit work that will inform our understanding of ToM in human-CUI interaction.
-
-<!-- We warmly welcome participants from academia and industry who are interested in conversational systems, generative AI, social robotics, cognitive modeling, and related areas. Whether your research is theoretical, empirical, or practical, your contribution can advance our collective understanding and application of ToM in AI. -->
