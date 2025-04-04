@@ -1,11 +1,48 @@
 {{ define "main" }}
   <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+    <div class="container mx-auto">
+      <!-- Flex container with default vertical centering -->
+      <div class="flex flex-col md:flex-row md:space-x-8 md:items-center">
+        <!-- Main content column (centered vertically by default) -->
+        <div class="flex-4 lg:col-8 content" style="align-self: center;text-align: justify;">
+          <h2 class="h2 text-center mb-6">{{ .Title }}</h2>
+          {{ .Content }}
+        </div>
+        <!-- Sidebar column (override vertical centering to align at the top) -->
+        <div class="block md:hidden border-t border-gray-300 mt-10 my-4"></div>
+        <div class="flex-1 important-dates self-start md:bg-gray-200 md:p-4 md:border mt-10" style="text-align: justify; max-width: 400px;">
+          <h3 class="h3 mb-4">Important Dates</h3>
+          {{ with .Params }}
+          <ul>
+            {{ with .submission_deadline }}
+              <li class="mb-2"><strong>Submission Deadline:</strong> {{ . | dateFormat "Jan 2, 2006" }} (Anywhere on Earth)</li>
+            {{ end }}
+            {{ with .notification_date }}
+              <li class="mb-2"><strong>Notification Date:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+            {{ end }}
+            {{ with .camera_ready }}
+              <li class="mb-2"><strong>Camera-Ready Due:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+            {{ end }}
+            {{ with .workshop_date }}
+              <li class="mb-2"><strong>Workshop Date:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          <h3 class="h3 mt-10 mb-4">Submission Details</h3>
+          {{ with .Params }}
+          <ul>
+            {{ with .platform_link }}
+            <li class="mb-2"><strong>Link to Submission Platform:</strong> <a href="{{ .url }}" class="underline">{{ .text }}</a></li>
+              <p></p>
+            {{ end }}
+            <li class="mb-2">(Click on “Add: ACM CUI 2025 Workshop ToMinHAI Submission” button for the submission form)</li>
+            {{ with .submission_format }}
+            <li class="mb-2"><strong>Submission Format:</strong> 2-6 pages ACM double-column, excluding references.</li>
+            {{ end }}
+            <li class="mb-2"><strong>Submission types:</strong> Position papers, literature reviews, in-progress empirical studies, or “encore” of published work. <em>All submissions will be non-archival and will only be posted on our workshop website if accepted.</em></li>
+            <li class="mb-2"><strong>Review process:</strong> Single-blind (i.e. author names and affiliations should be listed). Papers will be evaluated based on quality and relevance to ToM in human-CUI interaction.</li>
+          </ul>
+          {{ end }}
         </div>
       </div>
     </div>

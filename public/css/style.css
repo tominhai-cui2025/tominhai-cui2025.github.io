@@ -16,6 +16,7 @@
     --color-blue-200: oklch(0.882 0.059 254.128);
     --color-pink-200: oklch(0.899 0.061 343.231);
     --color-gray-200: oklch(0.928 0.006 264.531);
+    --color-gray-300: oklch(0.872 0.01 258.338);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -29,6 +30,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-normal: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -312,6 +315,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-4 {
+    margin-block: calc(var(--spacing) * 4);
+  }
   .ms-1 {
     margin-inline-start: calc(var(--spacing) * 1);
   }
@@ -368,6 +374,9 @@
   }
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
+  }
+  .mb-0 {
+    margin-bottom: calc(var(--spacing) * 0);
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
@@ -516,6 +525,15 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-\[200px\] {
+    height: 200px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .max-h-\[400px\] {
+    max-height: 400px;
+  }
   .col-12 {
     flex: 0 0 auto;
     width: 100%;
@@ -539,6 +557,12 @@
   .w-\[30px\] {
     width: 30px;
   }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[600px\] {
+    width: 600px;
+  }
   .w-full {
     width: 100%;
   }
@@ -547,6 +571,15 @@
   }
   .col {
     flex: 1 0 0%;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-4 {
+    flex: 4;
+  }
+  .flex-shrink-0 {
+    flex-shrink: 0;
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
@@ -564,6 +597,9 @@
   }
   .resize {
     resize: both;
+  }
+  .flex-col {
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -591,12 +627,22 @@
       margin-inline-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
+  .space-x-2 {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 0;
+      margin-inline-start: calc(calc(var(--spacing) * 2) * var(--tw-space-x-reverse));
+      margin-inline-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-x-reverse)));
+    }
+  }
   .space-x-3 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
       margin-inline-start: calc(calc(var(--spacing) * 3) * var(--tw-space-x-reverse));
       margin-inline-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-x-reverse)));
     }
+  }
+  .self-start {
+    align-self: flex-start;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -632,6 +678,9 @@
   .border-border {
     border-color: var(--color-border);
   }
+  .border-gray-300 {
+    border-color: var(--color-gray-300);
+  }
   .bg-body {
     background-color: var(--color-body);
   }
@@ -666,6 +715,9 @@
   }
   .fill-current {
     fill: currentColor;
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
@@ -745,6 +797,10 @@
   .font-primary {
     font-family: var(--font-primary);
   }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -799,6 +855,9 @@
   }
   .uppercase {
     text-transform: uppercase;
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   .opacity-0 {
     opacity: 0%;
@@ -932,6 +991,16 @@
       grid-column: 10;
     }
   }
+  .md\:col-12 {
+    @media (width >= 48rem) {
+      grid-column: 12;
+    }
+  }
+  .md\:mr-5 {
+    @media (width >= 48rem) {
+      margin-right: calc(var(--spacing) * 5);
+    }
+  }
   .md\:mb-0 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 0);
@@ -983,9 +1052,50 @@
       width: 83.33333333333334%;
     }
   }
+  .md\:col-12 {
+    @media (width >= 48rem) {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
+      flex-direction: row;
+    }
+  }
+  .md\:items-center {
+    @media (width >= 48rem) {
+      align-items: center;
+    }
+  }
+  .md\:space-x-8 {
+    @media (width >= 48rem) {
+      :where(& > :not(:last-child)) {
+        --tw-space-x-reverse: 0;
+        margin-inline-start: calc(calc(var(--spacing) * 8) * var(--tw-space-x-reverse));
+        margin-inline-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-x-reverse)));
+      }
+    }
+  }
+  .md\:border {
+    @media (width >= 48rem) {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
+  }
+  .md\:bg-gray-200 {
+    @media (width >= 48rem) {
+      background-color: var(--color-gray-200);
+    }
+  }
   .md\:bg-yellow-200 {
     @media (width >= 48rem) {
       background-color: var(--color-yellow-200);
+    }
+  }
+  .md\:p-4 {
+    @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 4);
     }
   }
   .lg\:order-1 {
@@ -1028,9 +1138,19 @@
       grid-column: 10;
     }
   }
+  .lg\:col-12 {
+    @media (width >= 64rem) {
+      grid-column: 12;
+    }
+  }
   .lg\:mt-0 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:mr-5 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 5);
     }
   }
   .lg\:mb-0 {
@@ -1102,6 +1222,12 @@
     @media (width >= 64rem) {
       flex: 0 0 auto;
       width: 83.33333333333334%;
+    }
+  }
+  .lg\:col-12 {
+    @media (width >= 64rem) {
+      flex: 0 0 auto;
+      width: 100%;
     }
   }
   .lg\:w-auto {
@@ -3481,6 +3607,11 @@ input#nav-toggle:checked ~ #nav-menu {
 .gallery-slider {
   margin-left: calc(var(--spacing) * 0) !important;
 }
+@layer components {
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    text-align: center !important;
+  }
+}
 @layer base {
   [type='text'],input:where(:not([type])),[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
     appearance: none;
@@ -3646,8 +3777,8 @@ input#nav-toggle:checked ~ #nav-menu {
     --text-h1-sm: 2.6873856rem;
     --text-base: 16px;
     --text-base-sm: 12.8px;
-    --font-primary: Heebo, sans-serif;
-    --font-secondary: Signika, sans-serif;
+    --font-primary: Inter, sans-serif;
+    --font-secondary: IBM Plex Sans, sans-serif;
     --color-primary: #121212;
     --color-body: #fff;
     --color-border: #eaeaea;

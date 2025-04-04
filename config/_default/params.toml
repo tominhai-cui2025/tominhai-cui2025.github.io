@@ -2,7 +2,7 @@
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
+logo = "images/banner.svg"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
@@ -15,7 +15,7 @@ logo_text = "Hugoplate"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
+theme_switcher = false
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
@@ -28,6 +28,8 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 # copyright
 copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+
+chelseaURL = "https://arxiv.org/abs/2210.03842"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader

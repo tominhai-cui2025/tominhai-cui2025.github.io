@@ -1,29 +1,36 @@
-<div class="bg-light dark:bg-darkmode-light rounded p-8 text-center">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
-  {{ else if .Params.Email }}
-    <img
-      class="mx-auto mb-6 rounded"
-      alt="{{ .Title }}"
-      height="120"
-      width="120"
-      src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
-  {{ end }}
-  <h4 class="mb-3">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h4>
-  <p class="mb-4">
-    {{ .Summary }}
-  </p>
-  <ul class="social-icons">
-    {{ range .Params.social }}
-      <li>
-        <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
-          <span class="sr-only">{{ .title }}</span>
-          <i class="{{ .icon }}"></i>
-        </a>
-      </li>
+<div class="bg-light dark:bg-darkmode-light rounded p-8 flex flex-col md:flex-row">
+  <!-- Left Column: Image & Socials -->
+  <div class="flex-shrink-0 mb-6 lg:mr-5 md:mr-5 mx-auto text-center justify-center">
+    {{ $image := .Params.image }}
+    {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto w-[200px] h-[200px] object-cover") }}
+    {{ else if .Params.Email }}
+      <img
+        class="rounded"
+        alt="{{ .Title }}"
+        height="120"
+        width="120"
+        src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
     {{ end }}
-  </ul>
+    <ul class="social-icons flex justify-center space-x-2 mt-4">
+      {{ range .Params.social }}
+        <li>
+          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
+            <span class="sr-only">{{ .title }}</span>
+            <i class="{{ .icon }}"></i>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <!-- Right Column: Text (Justified) -->
+  <div class="flex-1 ml-4" style="text-align: justify;">
+    <h4 class="mb-3">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h4>
+    <p class="mb-4">
+      {{ .Summary }}
+    </p>
+  </div>
 </div>

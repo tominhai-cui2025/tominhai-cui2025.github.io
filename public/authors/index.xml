@@ -1,32 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Authors on Hugoplate</title>
-    <link>http://localhost:1313/authors/</link>
-    <description>Recent content in Authors on Hugoplate</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>John Doe</title>
-      <link>http://localhost:1313/authors/john-doe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/john-doe/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sam Wilson</title>
-      <link>http://localhost:1313/authors/sam-wilson/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/sam-wilson/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>William Jacob</title>
-      <link>http://localhost:1313/authors/william-jacob/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/william-jacob/</guid>
-      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Organizers on Theory of Mind in Human-AI Interaction @ CUI2025</title><link>https://tominhai-cui2025.github.io/authors/</link><description>Recent content in Organizers on Theory of Mind in Human-AI Interaction @ CUI2025</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://tominhai-cui2025.github.io/authors/index.xml" rel="self" type="application/rss+xml"/><item><title>Qiaosi Wang (Chelsea)</title><link>https://tominhai-cui2025.github.io/authors/chelsea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/chelsea/</guid><description>&lt;p>Qiaosi Wang (Chelsea) is a Carnegie Bosch Postdoctoral Fellow at Carnegie Mellon University. She conducts interdisciplinary research on human-AI interaction, cognitive science, and responsible AI. Chelsea recently obtained her Ph.D. in Human-Centered Computing from Georgia Institute of Technology. Chelsea&amp;rsquo;s Ph.D. dissertation proposed, developed, and empirically examined &lt;a href="https://www.arxiv.org/abs/2210.03842"
+
+
+
+
+ target="_blank"
+ 
+
+
+>the theoretical framework of Mutual Theory of Mind&lt;/a> for human-AI communication, which explores how humans&amp;rsquo; and AI&amp;rsquo;s interpretations of each other are shaped through continuous communication feedback.&lt;/p></description></item><item><title>Joel Wester</title><link>https://tominhai-cui2025.github.io/authors/joel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/joel/</guid><description>&lt;p>Joel Wester is a PhD Fellow in the Human-Centred Computing group at Aalborg University.
+He has a background in cognitive science, psychology, and philosophy.
+Joel’s work primarily focuses on AI-powered conversational user interfaces, such as chatbots or robots, and their impact on the wellbeing of everyday citizens.
+His research particularly centres around people’s perceptions of AI systems’ behavior and how these perceptions influence their user experiences.&lt;/p></description></item><item><title>Marvin Pafla</title><link>https://tominhai-cui2025.github.io/authors/marvin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/marvin/</guid><description>&lt;p>Marvin Pafla is a PhD candidate in the David R. Cheriton School of Computer Science at the University of Waterloo. Drawing on his background in both Psychology and Computer Science, he investigates human–machine interaction, with a particular focus on neural network explainability and its implications for user trust and comprehension. His research explores the notion of &amp;ldquo;understanding understanding,&amp;rdquo; examining how humans and AI can make sense of each other through a shared Theory of Mind. To advance this work, he studies the ontological foundations that support mutual understanding. Marvin is supervised by Professor Mark Hancock and Professor Kate Larson.&lt;/p></description></item><item><title>Minha Lee</title><link>https://tominhai-cui2025.github.io/authors/minha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/minha/</guid><description>&lt;p>Minha Lee is an Assistant Professor at the Eindhoven University of Technology in the Department of Industrial Design, with a background in philosophy, digital arts, and HCI. Her research concerns morally relevant interactions with various agents like robots or chatbots. Her work explores how we can explore our moral self-identity through conversations with digital entities, e.g., via acting compassionately towards a chatbot. She co-leads the steering committee of the ACM CUI conference series after serving as one of the general chairs of the CUI 2023 conference.&lt;/p></description></item><item><title>Justin D. Weisz</title><link>https://tominhai-cui2025.github.io/authors/justin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/justin/</guid><description>&lt;p>Justin D. Weisz is a Senior Research Scientist, Manager, and Strategy Lead for Human-Centered AI at IBM Research in Yorktown Heights, NY. Dr. Weisz’s research sits at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), and he uses a mix of qualitative, quantitative, prototyping, crowdsourcing, and speculative methods to understand how to design AI systems that amplify and augment human capabilities. He was a co-organizer of the HAI-GEN workshops at IUI (2021-2023) and the HCXAI workshop at CHI (2023). Dr. Weisz is the PI of a project that explores how to help people work effectively with generative AI applications. He was appointed as an IBM Master Inventor in 2016, an ACM Senior Member in 2022, and he publishes in top-tier HCI and AI conferences including CHI, IUI, CSCW, AAAI, and NeurIPS. Dr. Weisz received his B.S., M.S., and Ph.D. in Computer Science from Carnegie Mellon University.&lt;/p></description></item><item><title>Mei Si</title><link>https://tominhai-cui2025.github.io/authors/mei/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tominhai-cui2025.github.io/authors/mei/</guid><description>&lt;p>Mei Si is an associate professor in the Cognitive Science Department, Rensselaer Polytechnic Institute (RPI) and the graduate program director of the Critical Game Design program at RPI. Mei Si received a Ph.D. in Computer Science from the University of Southern California and an M.A. in Psychology from the University of Cincinnati. Her primary research interests are embodied conversational agents, interactive storytelling, cognitive robots, and AI in games.&lt;/p></description></item></channel></rss>
