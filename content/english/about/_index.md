@@ -27,9 +27,9 @@ In this workshop, we aim to bring together researchers investigating ToM from di
 
 Relevant work may involve CUIs taking on diverse social roles (e.g., teammates, tutors) or propose fresh directions for ToM research in human-CUI interaction. We particularly encourage work that examines how ToM-like abilities can be operationalized, designed, and evaluated, raising questions around which metrics and benchmarks truly capture whether a CUI ‘has’ ToM. 
 
-We invite academic and industry researchers to contribute 2–6 page papers (in ACM double-column format) that include position statements, literature reviews, or in-progress empirical studies. We are especially interested in short position papers that make an argument for a viewpoint or perspective about what *shoud* be done in ToM in human-CUI interaction to advance the current research and industry landscape. 
+We invite academic and industry researchers to contribute 2–6 page papers (in ACM double-column format) that include position statements, literature reviews, or in-progress empirical studies. We are especially interested in short position papers that make an argument for a viewpoint or perspective about what *should* be done in ToM in human-CUI interaction to advance the current research and industry landscape. 
 
-All submissions will be assessed based on their quality and relevance to ToM in human-CUI interaction, and accepted papers will be made available on the workshop website. At least one author of each accepted submission must attend the workshop in person. For further information, contact us at qiaosiw@andrew.cmu.edu
+All submissions will be assessed based on their quality and relevance to ToM in human-CUI interaction, and accepted papers will be made available on the workshop website. At least one author of each accepted submission must attend the workshop in person. For further information, please feel free to contact Qiaosi Wang (Chelsea) at qiaosiw@andrew.cmu.edu
 
 
 <!-- In this workshop, we aim to bring together researchers investigating ToM from different research perspectives to define a unifying agenda for Mutual Theory of Mind (MToM) in human-CUI interactions, where both humans and CUIs exhibit ToM-like capabilities throughout their interactions.

@@ -4,18 +4,18 @@ email: samwilson@email.com
 image: "/images/joel.jpg"
 description: this is meta description
 weight: 2
-# social:
-  # - name: github
-  #   icon: fa-brands fa-github
-  #   link: https://github.com
+social:
+#   - name: github
+#     icon: fa-brands fa-github
+#     link: https://github.com
 
-  # - name: twitter
-  #   icon: fa-brands fa-twitter
-  #   link: https://twitter.com
+  - name: twitter
+    icon: fa-solid fa-house
+    link: http://www.joelwester.com
 
-  # - name: linkedin
-  #   icon: fa-brands fa-linkedin
-  #   link: https://linkedin.com
+  - name: linkedin
+    icon: fa-brands fa-linkedin
+    link: https://www.linkedin.com/in/joel-wester
 ---
 
 Joel Wester is a PhD Fellow in the Human-Centred Computing group at Aalborg University. 

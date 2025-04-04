@@ -4,14 +4,14 @@ email: johndoe@email.com
 image: "/images/chelsea.jpg"
 description: this is meta description
 weight: 1
-# social:
+social:
 #   - name: github
 #     icon: fa-brands fa-github
 #     link: https://github.com
 
-#   - name: twitter
-#     icon: fa-brands fa-twitter
-#     link: https://twitter.com
+  - name: twitter
+    icon: fa-solid fa-house
+    link: http://qiaosiwang.me/
 
 #   - name: linkedin
 #     icon: fa-brands fa-linkedin
