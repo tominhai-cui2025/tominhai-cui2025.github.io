@@ -1,8 +1,7 @@
 ---
 title: "Call for Papers"
-meta_title: "cfp"
-description: "this is meta description"
-image: "/images/avatar.png"
+meta_title: "Call for Papers | Theory of Mind in Human-CUI Interaction @ CUI 2025"
+description: ""
 submission_deadline: 2025-05-16T00:00:00Z
 notification_date: 2025-05-30T00:00:00Z
 camera_ready: 2025-06-20T00:00:00Z

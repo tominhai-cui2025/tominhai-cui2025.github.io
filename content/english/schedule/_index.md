@@ -1,7 +1,7 @@
 ---
 title: "Schedule"
 # meta title
-meta_title: ""
+meta_title: "Schedule | Theory of Mind in Human-CUI Interaction @ CUI 2025"
 # meta description
 description: "This is meta description"
 # save as draft

@@ -1,9 +1,9 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = ""
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/banner.svg"
-logo_darkmode = "images/logo-darkmode.png"
+logo_darkmode = "images/banner.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -65,10 +65,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+description = "Theory of Mind in Human-CUI Interaction @ CUI 2025"
 author = "zeon.studio"
 twitter = "zeon_studio"
-image = "images/og-image.png"
+image = "images/banner.svg"
 
 
 # site verifications

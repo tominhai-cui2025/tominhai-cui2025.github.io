@@ -1,9 +1,9 @@
 ---
 title: "Home"
 # meta title
-meta_title: ""
+meta_title: "Home | Theory of Mind in Human-CUI Interaction @ CUI 2025"
 # meta description
-description: "This is meta description"
+description: "Theory of Mind in Human-CUI Interaction @ CUI 2025"
 location: "Waterloo, Ontario, Canada"
 datum: 2025-07-08T00:00:00Z
 # save as draft
