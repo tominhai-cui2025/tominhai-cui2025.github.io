@@ -15,10 +15,10 @@
           {{ with .Params }}
           <ul>
             {{ with .submission_deadline }}
-              <li class="mb-2"><strong>Submission Deadline:</strong> {{ . | dateFormat "Jan 2, 2006" }} (Anywhere on Earth)</li>
+              <li class="mb-2"><strong>Submission Deadline:</strong><del>Jun 2, 2025</del> {{ . | dateFormat "Jan 2, 2006" }} (Anywhere on Earth)</li>
             {{ end }}
             {{ with .notification_date }}
-              <li class="mb-2"><strong>Notification Date:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
+              <li class="mb-2"><strong>Notification Date:</strong><del>Jun 14, 2025</del> {{ . | dateFormat "Jan 2, 2006" }}</li>
             {{ end }}
             {{ with .camera_ready }}
               <li class="mb-2"><strong>Camera-Ready Due:</strong> {{ . | dateFormat "Jan 2, 2006" }}</li>
