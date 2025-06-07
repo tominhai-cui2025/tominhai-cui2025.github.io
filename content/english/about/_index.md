@@ -3,8 +3,8 @@ title: "Call for Papers"
 meta_title: "Call for Papers | Theory of Mind in Human-CUI Interaction @ CUI 2025"
 description: ""
 submission_deadline: 2025-06-14T00:00:00Z
-notification_date: 2025-06-21T00:00:00Z
-camera_ready: 2025-06-27T00:00:00Z
+notification_date: 2025-06-20T00:00:00Z
+camera_ready: 2025-06-30T00:00:00Z
 workshop_date: 2025-07-08T00:00:00Z
 platform_link:
   url: "https://openreview.net/group?id=ACM.org/CUI/2025/Workshop/ToMinHAI"
